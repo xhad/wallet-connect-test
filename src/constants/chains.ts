@@ -2,22 +2,6 @@ import { IChainData } from "../helpers/types";
 
 export const SUPPORTED_CHAINS: IChainData[] = [
   {
-    name: "Ethereum Mainnet",
-    short_name: "eth",
-    chain: "ETH",
-    network: "mainnet",
-    chain_id: 1,
-    network_id: 1,
-    rpc_url: "https://mainnet.infura.io/v3/f1de7a65620444dea373f1e2f3b636ca",
-    native_currency: {
-      symbol: "ETH",
-      name: "Ether",
-      decimals: "18",
-      contractAddress: "",
-      balance: "",
-    },
-  },
-  {
     name: "Localhost",
     short_name: "eth",
     chain: "ETH",
@@ -41,6 +25,22 @@ export const SUPPORTED_CHAINS: IChainData[] = [
     chain_id: 333,
     network_id: 1,
     rpc_url: "https://kaleido.rpc.maple.loans",
+    native_currency: {
+      symbol: "ETH",
+      name: "Ether",
+      decimals: "18",
+      contractAddress: "",
+      balance: "",
+    },
+  },
+  {
+    name: "Ethereum Mainnet",
+    short_name: "eth",
+    chain: "ETH",
+    network: "mainnet",
+    chain_id: 1,
+    network_id: 1,
+    rpc_url: "https://mainnet.infura.io/v3/f1de7a65620444dea373f1e2f3b636ca",
     native_currency: {
       symbol: "ETH",
       name: "Ether",
